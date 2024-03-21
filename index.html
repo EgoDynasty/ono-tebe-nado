@@ -13,8 +13,8 @@
     <header class="header">
       <nav class="header_menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item">
-            <a class="header__link_active">главная</a>
+          <li class="header__links-list-item header__links-list-item_no-bullit">
+            <a class="header__links-link header__link_active">главная</a>
           </li>
           <li class="header__links-list-item">
             <a class="header__link" href="#0">посмотреть лоты</a>
@@ -33,53 +33,51 @@
           />
         </a>
       </div>
-      <address class="header_address">
-        <p class="address">
-          <a href="tel:+99995555555">+9 999 555 5555</a>
+      <address class="header_address address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge"><br />info@sobaka.ge</a>
+        <p>
+          наб. Принсенграхт 263-<br />
+          265, Амстердам
         </p>
-        <p class="address">
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </p>
-        <p class="address">наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover">
-        <div class="overlay">
-          \
-          <h1 class="cover_title">
-            <span class="start_word aligned-text">
-              О
-              <span class="letter-spacing-extended">НО</span>
-            </span>
-            <span class="center_word aligned-text aligned-text_center">
-              Т Е
-              <span class="letter-spacing-extended">БЕ</span>
-            </span>
-            <span class="end_word aligned-text aligned-text_right">
-              <span class="letter-spacing-extended">Н</span>А Д
-              <span class="no-letter-spacing">О</span>
-            </span>
-          </h1>
-          <div class="cover__description">
-            <h3 class="cover__description-text">
-              Аукцион вещей, в которые никто не верил
-            </h3>
-            <h3 class="cover__description-text">
-              <a class="bet-button" href="#0">Сделать ставку</a>
-            </h3>
-          </div>
+        <div class="overlay"></div>
+        <h1 class="cover_title">
+          <span class="start_word aligned-text">
+            О
+            <span class="letter-spacing-extended">НО</span>
+          </span>
+          <span class="center_word aligned-text aligned-text_center">
+            Т Е
+            <span class="letter-spacing-extended">БЕ</span>
+          </span>
+          <span class="end_word aligned-text aligned-text_right">
+            <span class="letter-spacing-extended">Н</span>А Д
+            <span class="no-letter-spacing">О</span>
+          </span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="cover__description-text bet-button" type="button">
+            Сделать ставку
+          </button>
         </div>
       </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item card_type_film">
+            <div class="overlay"></div>
             <a class="card-link">
-              <article class="card overlay">
-                <p class="card__title">
+              <article class="card">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </p>
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -89,11 +87,12 @@
             </a>
           </li>
           <li class="lots__card-list-item card_type_book">
+            <div class="overlay"></div>
             <a class="card-link">
-              <article class="card overlay">
-                <p class="card__title">
+              <article class="card">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </p>
+                </h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -106,11 +105,12 @@
             </a>
           </li>
           <li class="lots__card-list-item card_type_picture">
+            <div class="overlay"></div>
             <a class="card-link">
-              <article class="card overlay">
-                <p class="card__title">
+              <article class="card">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </p>
+                </h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -154,19 +154,17 @@
       </section>
     </main>
     <footer class="footer">
-      <address>
-        <p class="address">
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-        </p>
-        <p class="address">
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        </p>
+      <address class="address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge"><br />info@sobaka.ge</a>
         <p class="address">наб. Принсенграхт 263-<br />265, Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link_active" href="#0">главная</a>
+            <a class="footer__menu-link footer__menu-link_active" href="#0"
+              >главная</a
+            >
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="#0">посмотреть лоты</a>
