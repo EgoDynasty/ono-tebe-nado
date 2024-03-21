@@ -64,6 +64,10 @@
 }
 
 .cover_title {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  white-space: nowrap;
   font-family: "Raleway", sans-serif;
   font-size: 100px;
   font-weight: 700;
@@ -75,8 +79,7 @@
 
 .start_word {
   letter-spacing: 0.03em;
-  line-height: 0.8;
-  margin-bottom: 35px;
+  line-height: 115px;
 }
 
 .center_word {
@@ -87,7 +90,6 @@
 .end_word {
   letter-spacing: 0.04em;
   line-height: 1;
-  margin-top: 20px;
 }
 
 .aligned-text {
